@@ -1,0 +1,60 @@
+@page
+@model StatisticsModel
+@{
+    ViewData["Title"] = "Statistiky";
+}
+
+<div class="panel">
+    <h1>Anonymizované statistiky</h1>
+    <p class="lead">
+        Průměrné skóre podle role, počítané nad uloženými výsledky triáže (funkce
+        <code>fn_role_statistics()</code>). Celkem záznamů: <strong>@Model.TotalRecords</strong>.
+    </p>
+</div>
+
+<div class="panel">
+    @if (Model.Statistics.Count == 0)
+    {
+        <p>Zatím nejsou k dispozici žádná data.</p>
+    }
+    else
+    {
+        <div class="table-wrap">
+            <table class="stat">
+                <thead>
+                    <tr>
+                        <th>Role</th>
+                        <th>Počet</th>
+                        <th>Včasné zapojení</th>
+                        <th>Experimentování</th>
+                        <th>Iterace</th>
+                        <th>Ověřování</th>
+                        <th>Uložené postupy</th>
+                        <th>Sdílení</th>
+                        <th>SP Score</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var s in Model.Statistics)
+                    {
+                        <tr>
+                            <td>@Model.RoleName(s.Role)</td>
+                            <td>@s.ResponseCount</td>
+                            <td>@s.AvgEarlyAdoptionScore.ToString("0.0")</td>
+                            <td>@s.AvgExperimentationScore.ToString("0.0")</td>
+                            <td>@s.AvgIterationScore.ToString("0.0")</td>
+                            <td>@s.AvgOutputVerificationScore.ToString("0.0")</td>
+                            <td>@s.AvgSavedWorkflowsScore.ToString("0.0")</td>
+                            <td>@s.AvgSharingScore.ToString("0.0")</td>
+                            <td><strong>@s.AvgTotalScore.ToString("0.0")</strong></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+</div>
+
+<div style="margin-top:8px;">
+    <a class="btn" asp-page="/Index">Zpět na triáž</a>
+</div>

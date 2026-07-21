@@ -1,0 +1,60 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Triáž – výběr role";
+}
+
+<div class="panel">
+    <h1>Triáž AI gramotnosti ve zdravotnictví</h1>
+    <p class="lead">
+        Zvolte svou roli, projděte krátkým testem (12 otázek) a získáte skóre vašich návyků
+        práce s AI spolu s doporučeným studijním plánem.
+    </p>
+</div>
+
+<form method="post" class="panel">
+    <h2>1. Kdo jste?</h2>
+
+    @if (!ViewData.ModelState.IsValid)
+    {
+        <div class="error">
+            @foreach (var e in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <div>@e.ErrorMessage</div>
+            }
+        </div>
+    }
+
+    <div class="role-grid">
+        @foreach (var role in Model.Role)
+        {
+            <label class="role-option">
+                <input type="radio" name="SelectedRole" value="@((int)role)"
+                       data-management="@(RoleCatalog.IsManagementRelevant(role).ToString().ToLowerInvariant())" />
+                <span class="role-name">@RoleCatalog.Name(role)</span>
+            </label>
+        }
+    </div>
+
+    <div id="management-block" class="check-row" style="display:none;">
+        <input type="checkbox" name="Management" value="true" id="management" />
+        <label for="management">Patřím do managementu (nabídneme vám navíc Masterclass pro management)</label>
+    </div>
+
+    <div style="margin-top:18px;">
+        <button type="submit" class="btn btn-block">Pokračovat na test</button>
+    </div>
+</form>
+
+<script>
+    // Show the management checkbox only for the "non-clinical hospital staff" role.
+    document.querySelectorAll('input[name="SelectedRole"]').forEach(function (r) {
+        r.addEventListener('change', function () {
+            var block = document.getElementById('management-block');
+            block.style.display = this.dataset.management === 'true' ? 'flex' : 'none';
+            if (this.dataset.management !== 'true') {
+                document.getElementById('management').checked = false;
+            }
+        });
+    });
+</script>

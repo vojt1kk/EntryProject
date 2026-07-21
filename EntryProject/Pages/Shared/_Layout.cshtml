@@ -1,0 +1,36 @@
+@{
+    var title = ViewData["Title"] as string ?? "Triáž AI gramotnosti";
+}
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@title – AI ve zdravotnictví</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" asp-page="/Index">
+                <span class="brand-mark">AI</span>
+                <span class="brand-text">ve zdravotnictví</span>
+            </a>
+            <nav class="site-nav">
+                <a asp-page="/Index">Triáž</a>
+                <a asp-page="/Statistics">Statistiky</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container main">
+        @RenderBody()
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>Prototyp triáže AI gramotnosti · MZd + IPVZ · metodika Aibility „Superpowered Professional™"</p>
+        </div>
+    </footer>
+</body>
+</html>

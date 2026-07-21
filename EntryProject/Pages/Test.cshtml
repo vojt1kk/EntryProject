@@ -1,0 +1,45 @@
+@page
+@model TestModel
+@{
+    ViewData["Title"] = "Benchmark test";
+    var scaleLabels = new[] { "", "Vůbec", "Spíše ne", "Částečně", "Spíše ano", "Naprosto" };
+}
+
+<div class="panel">
+    <h1>Benchmark test AI gramotnosti</h1>
+    <p class="lead">Role: <strong>@Model.RoleName</strong>. U každého tvrzení zvolte, jak vás vystihuje (1 = vůbec, 5 = naprosto).</p>
+</div>
+
+<form method="post" asp-route-role="@Model.Role" asp-route-management="@Model.Management" class="panel">
+    @if (!ViewData.ModelState.IsValid)
+    {
+        <div class="error">
+            @foreach (var e in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <div>@e.ErrorMessage</div>
+            }
+        </div>
+    }
+
+    @foreach (var q in Model.Questions)
+    {
+        var selected = Model.Answers.TryGetValue(q.Id, out var v) ? v : 0;
+        <div class="question">
+            <div class="question-text">@q.Id. @q.Text</div>
+            <div class="scale">
+                @for (var i = QuestionCatalog.MinAnswer; i <= QuestionCatalog.MaxAnswer; i++)
+                {
+                    <label>
+                        <input type="radio" name="Answers[@q.Id]" value="@i" @(selected == i ? "checked" : "") required />
+                        <span>@i</span>
+                        <small>@scaleLabels[i]</small>
+                    </label>
+                }
+            </div>
+        </div>
+    }
+
+    <div style="margin-top:18px;">
+        <button type="submit" class="btn btn-block">Vyhodnotit</button>
+    </div>
+</form>

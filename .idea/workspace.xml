@@ -5,22 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70ef2518-480e-46c4-bd49-99564a9eebb7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EntryProject.Tests/EntryProject.Tests.csproj" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/EntryProject.Tests/ScoringServiceTests.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/EntryProject/Data/ResultRepository.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/EntryProject/Data/StartupSql.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EntryProject/Data/TriageDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EntryProject/Data/TriageResult.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EntryProject/Domain/CourseCatalog.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EntryProject/Domain/Habit.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EntryProject/Domain/Questions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EntryProject/Domain/Recommender.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EntryProject/Domain/Role.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EntryProject/Domain/ScoringService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EntryProject/Migrations/20260721095725_InitialCreate.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EntryProject/Migrations/20260721095725_InitialCreate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EntryProject/Migrations/TriageDbContextModelSnapshot.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/EntryProject/Pages/Error.cshtml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/EntryProject/Pages/Index.cshtml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/EntryProject/Pages/Index.cshtml.cs" afterDir="false" />
@@ -33,18 +20,12 @@
       <change afterPath="$PROJECT_DIR$/EntryProject/Pages/Test.cshtml.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/EntryProject/Pages/_ViewImports.cshtml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/EntryProject/Pages/_ViewStart.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EntryProject/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EntryProject/appsettings.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/EntryProject/wwwroot/css/site.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/sql/01_schema.sql" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/sql/02_procedures.sql" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/sql/03_seed.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntryProject.sln" beforeDir="false" afterPath="$PROJECT_DIR$/EntryProject.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntryProject/Class1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntryProject/EntryProject.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/EntryProject/EntryProject.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

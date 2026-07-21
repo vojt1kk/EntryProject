@@ -6,12 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="70ef2518-480e-46c4-bd49-99564a9eebb7" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/EntryProject.Tests/ScoringServiceTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EntryProject/Data/ResultRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EntryProject/Data/StartupSql.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/01_schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/02_procedures.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/03_seed.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

@@ -1,0 +1,20 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: aivezdravotnictvi-db
+    environment:
+      POSTGRES_DB: aivezdravotnictvi
+      POSTGRES_USER: triage
+      POSTGRES_PASSWORD: triage
+    ports:
+      - "5433:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U triage -d aivezdravotnictvi"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  pgdata:

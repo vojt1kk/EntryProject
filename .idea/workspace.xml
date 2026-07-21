@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="70ef2518-480e-46c4-bd49-99564a9eebb7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EntryProject.Tests/EntryProject.Tests.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EntryProject.Tests/ScoringServiceTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EntryProject/Data/ResultRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EntryProject/Data/StartupSql.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EntryProject/Data/TriageDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EntryProject/Data/TriageResult.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EntryProject/Domain/CourseCatalog.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EntryProject/Domain/Habit.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EntryProject/Domain/Questions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EntryProject/Domain/Recommender.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EntryProject/Domain/Role.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EntryProject/Domain/ScoringService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EntryProject/Migrations/20260721095725_InitialCreate.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EntryProject/Migrations/20260721095725_InitialCreate.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EntryProject/Migrations/TriageDbContextModelSnapshot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EntryProject/Pages/Error.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EntryProject/Pages/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EntryProject/Pages/Index.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EntryProject/Pages/Result.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EntryProject/Pages/Result.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EntryProject/Pages/Shared/_Layout.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EntryProject/Pages/Statistics.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EntryProject/Pages/Statistics.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EntryProject/Pages/Test.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EntryProject/Pages/Test.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EntryProject/Pages/_ViewImports.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EntryProject/Pages/_ViewStart.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EntryProject/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EntryProject/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EntryProject/wwwroot/css/site.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/01_schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/02_procedures.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/03_seed.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EntryProject.sln" beforeDir="false" afterPath="$PROJECT_DIR$/EntryProject.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EntryProject/Class1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EntryProject/EntryProject.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/EntryProject/EntryProject.csproj" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "vojt1kk"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/vojt1kk/EntryProject.git",
+    "accountId": "2366281d-be92-42c5-ba08-466ff1218f60"
+  }
+}]]></component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="3GnueQOr42ajj70sj2SOTrL1zit" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="70ef2518-480e-46c4-bd49-99564a9eebb7" name="Changes" comment="" />
+      <created>1784619749473</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1784619749473</updated>
+      <workItem from="1784619751898" duration="640000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
